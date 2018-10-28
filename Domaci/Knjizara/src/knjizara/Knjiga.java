@@ -4,7 +4,7 @@ package knjizara;
 public class Knjiga extends Proizvod{
         public String autor; /*deklaracija promenljive*/
         
-        public Knjiga(String naziv, String autor, double cena){ //parametrizovani konstruktor sa nasledjivanjem promenljivih*/
+        public Knjiga(String naziv, String autor, double cena){ //parametrizovani konstruktor sa nasledjivanjem promenljivih
             super(naziv, cena);
             this.autor = autor;
         }
