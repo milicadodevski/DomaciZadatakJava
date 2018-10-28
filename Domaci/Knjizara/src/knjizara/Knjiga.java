@@ -9,7 +9,7 @@ public class Knjiga extends Proizvod{
             this.autor = autor;
         }
         
-        public String getAutor(){ /*metoda koja vraca autora*/
+        public String getAutor(){ //metoda koja vraca autora
             return autor;
         }
 
